@@ -63,8 +63,9 @@ void _serverreactorreaction_function_1(void* instance_args){
     PyGILState_Release(gstate);
 }
 #include "include/api/set_undef.h"
-_serverreactor_self_t* new__serverreactor() {
+_serverreactor_self_t* new__serverreactor(int interp_index) {
     _serverreactor_self_t* self = (_serverreactor_self_t*)_lf_new_reactor(sizeof(_serverreactor_self_t));
+    self->interp_index = interp_index;
     #line 34 "/mnt/c/Users/jacky/Desktop/simple_multi/src/subinterpreter.lf"
     // Set the default source reactor pointer
     #line 34 "/mnt/c/Users/jacky/Desktop/simple_multi/src/subinterpreter.lf"

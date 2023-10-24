@@ -21,7 +21,7 @@ typedef struct {
     char *_lf_name;
     PyObject* _lf_py_reaction_function_0;
     PyObject* _lf_py_reaction_function_1;
-    
+    int interp_index;
     
     #line 12 "/mnt/c/Users/jacky/Desktop/simple_multi/src/subinterpreter.lf"
     _clientreactor_global_parameters_t* _lf_global_parameters;

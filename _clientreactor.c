@@ -63,8 +63,9 @@ void _clientreactorreaction_function_1(void* instance_args){
     PyGILState_Release(gstate);
 }
 #include "include/api/set_undef.h"
-_clientreactor_self_t* new__clientreactor() {
+_clientreactor_self_t* new__clientreactor(int interp_index) {
     _clientreactor_self_t* self = (_clientreactor_self_t*)_lf_new_reactor(sizeof(_clientreactor_self_t));
+    self->interp_index = interp_index;
     #line 12 "/mnt/c/Users/jacky/Desktop/simple_multi/src/subinterpreter.lf"
     // Set input by default to an always absent default input.
     #line 12 "/mnt/c/Users/jacky/Desktop/simple_multi/src/subinterpreter.lf"

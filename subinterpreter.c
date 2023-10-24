@@ -66,11 +66,14 @@ void _lf_initialize_trigger_objects() {
     subinterpreter_main_self[0]->base.environment = &envs[subinterpreter_main];
     subinterpreter_main_self[0]->_lf_name = "subinterpreter_main_lf";
     SUPPRESS_UNUSED_WARNING(_lf_watchdog_count);
+    // initialize the index for subinterperter
+    int interp_index = 0;
     
     // Reactor is a bank. Iterate over bank members.
     for (int subinterpreter_client_i = 0; subinterpreter_client_i < 2; subinterpreter_client_i++) {
         // ***** Start initializing subinterpreter.client of class clientReactor
-        subinterpreter_client_self[subinterpreter_client_i] = new__clientreactor();
+        subinterpreter_client_self[subinterpreter_client_i] = new__clientreactor(interp_index);
+        interp_index += 1;
         subinterpreter_client_self[subinterpreter_client_i]->base.environment = &envs[subinterpreter_main];
         subinterpreter_client_self[subinterpreter_client_i]->_lf_name = "subinterpreter_client_lf";
         subinterpreter_client_self[subinterpreter_client_i]->_lf_py_reaction_function_0 = 
@@ -102,7 +105,8 @@ void _lf_initialize_trigger_objects() {
     }
     {
         // ***** Start initializing subinterpreter.server of class serverReactor
-        subinterpreter_server_self[0] = new__serverreactor();
+        subinterpreter_server_self[0] = new__serverreactor(interp_index);
+        interp_index += 1;
         subinterpreter_server_self[0]->base.environment = &envs[subinterpreter_main];
         subinterpreter_server_self[0]->_lf_name = "subinterpreter_server_lf";
         subinterpreter_server_self[0]->_lf_py_reaction_function_0 = 
