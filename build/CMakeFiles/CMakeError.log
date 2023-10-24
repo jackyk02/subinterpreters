@@ -1,0 +1,61 @@
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-Xp1cob
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29538/fast && /usr/bin/make  -f CMakeFiles/cmTC_29538.dir/build.make CMakeFiles/cmTC_29538.dir/build
+make[1]: Entering directory '/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-Xp1cob'
+Building C object CMakeFiles/cmTC_29538.dir/src.c.o
+/usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD  -fPIE -std=gnu11 -o CMakeFiles/cmTC_29538.dir/src.c.o -c /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-Xp1cob/src.c
+Linking C executable cmTC_29538
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29538.dir/link.txt --verbose=1
+/usr/bin/gcc CMakeFiles/cmTC_29538.dir/src.c.o -o cmTC_29538 
+/usr/bin/ld: CMakeFiles/cmTC_29538.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x5e): undefined reference to `pthread_cancel'
+/usr/bin/ld: src.c:(.text+0x6f): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_29538.dir/build.make:99: cmTC_29538] Error 1
+make[1]: Leaving directory '/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-Xp1cob'
+make: *** [Makefile:127: cmTC_29538/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-rcDotd
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_181ed/fast && /usr/bin/make  -f CMakeFiles/cmTC_181ed.dir/build.make CMakeFiles/cmTC_181ed.dir/build
+make[1]: Entering directory '/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-rcDotd'
+Building C object CMakeFiles/cmTC_181ed.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE -std=gnu11 -o CMakeFiles/cmTC_181ed.dir/CheckFunctionExists.c.o -c /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-rcDotd/CheckFunctionExists.c
+Linking C executable cmTC_181ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_181ed.dir/link.txt --verbose=1
+/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_181ed.dir/CheckFunctionExists.c.o -o cmTC_181ed  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_181ed.dir/build.make:99: cmTC_181ed] Error 1
+make[1]: Leaving directory '/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/build/CMakeFiles/CMakeScratch/TryCompile-rcDotd'
+make: *** [Makefile:127: cmTC_181ed/fast] Error 2
+
+
+
