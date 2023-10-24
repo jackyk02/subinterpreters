@@ -2,6 +2,8 @@
 #include "include/subinterpreter/serverReactor.h"
 #include "_serverreactor.h"
 #include "include/api/set.h"
+#include "include/pythontarget.h"
+
 void _serverreactorreaction_function_0(void* instance_args){
     _serverreactor_self_t* self = (_serverreactor_self_t*)instance_args; SUPPRESS_UNUSED_WARNING(self);
     _serverreactor_global_parameters_t* global_parameters = &self->_lf_global_parameters;
@@ -9,12 +11,22 @@ void _serverreactorreaction_function_0(void* instance_args){
     // Acquire the GIL (Global Interpreter Lock) to be able to call Python APIs.
     PyGILState_STATE gstate;
     gstate = PyGILState_Ensure();
+
+    // Switch to subinterpreter
+    PyInterpreterState* interp = interp_list[self->interp_index];
+    PyThreadState* save_tstate = NULL;
+    if (interp != PyInterpreterState_Get()) {
+        PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+        save_tstate = PyThreadState_Swap(tstate);
+        lf_print("switched state");
+    }
     
     LF_PRINT_DEBUG("Calling reaction function _serverreactor.reaction_function_0");
     PyObject *rValue = PyObject_CallObject(
         self->_lf_py_reaction_function_0, 
         Py_BuildValue("(O)", convert_C_port_to_py(global_parameters, -2))
     );
+
     if (rValue == NULL) {
         lf_print_error("FATAL: Calling reaction _serverreactor.reaction_function_0 failed.");
         if (PyErr_Occurred()) {
@@ -24,6 +36,11 @@ void _serverreactorreaction_function_0(void* instance_args){
         /* Release the thread. No Python API allowed beyond this point. */
     PyGILState_Release(gstate);
         exit(1);
+    }
+
+    // Switch back to global interpreter
+    if (save_tstate != NULL) {
+        PyThreadState_Swap(save_tstate);
     }
     
     /* Release the thread. No Python API allowed beyond this point. */
@@ -41,6 +58,15 @@ void _serverreactorreaction_function_1(void* instance_args){
     // Acquire the GIL (Global Interpreter Lock) to be able to call Python APIs.
     PyGILState_STATE gstate;
     gstate = PyGILState_Ensure();
+
+    // Switch to subinterpreter
+    PyInterpreterState* interp = interp_list[self->interp_index];
+    PyThreadState* save_tstate = NULL;
+    if (interp != PyInterpreterState_Get()) {
+        PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+        save_tstate = PyThreadState_Swap(tstate);
+        lf_print("switched state");
+    }
     
     LF_PRINT_DEBUG("Calling reaction function _serverreactor.reaction_function_1");
     PyObject *rValue = PyObject_CallObject(
@@ -58,6 +84,11 @@ void _serverreactorreaction_function_1(void* instance_args){
         exit(1);
     }
     
+    // Switch back to global interpreter
+    if (save_tstate != NULL) {
+        PyThreadState_Swap(save_tstate);
+    }
+
     /* Release the thread. No Python API allowed beyond this point. */
     /* Release the thread. No Python API allowed beyond this point. */
     PyGILState_Release(gstate);
