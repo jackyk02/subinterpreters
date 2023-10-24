@@ -74,6 +74,7 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 extern PyObject *globalPythonModule;
 extern PyObject *globalPythonModuleDict;
 extern PyObject* global_pickler;
+PyInterpreterState* interp_list[NUMBER_OF_WORKERS];
 extern environment_t* top_level_environment;
 
 //////////////////////////////////////////////////////////////

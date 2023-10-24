@@ -58,114 +58,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/__lf_gendelay_0.c.o: /mnt/c/Users/jack
   /usr/include/linux/limits.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -192,12 +84,14 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/__lf_gendelay_0.c.o: /mnt/c/Users/jack
   /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -260,7 +154,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/__lf_gendelay_0.c.o: /mnt/c/Users/jack
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -271,7 +164,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/__lf_gendelay_0.c.o: /mnt/c/Users/jack
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/_clientreactor.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_clientreactor.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h \
@@ -330,114 +333,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_clientreactor.c.o: /mnt/c/Users/jacky
   /usr/include/linux/limits.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -464,12 +359,14 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_clientreactor.c.o: /mnt/c/Users/jacky
   /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -532,7 +429,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_clientreactor.c.o: /mnt/c/Users/jacky
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -543,7 +439,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_clientreactor.c.o: /mnt/c/Users/jacky
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/_serverreactor.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_serverreactor.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h \
@@ -602,114 +608,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_serverreactor.c.o: /mnt/c/Users/jacky
   /usr/include/linux/limits.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -736,12 +634,14 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_serverreactor.c.o: /mnt/c/Users/jacky
   /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -804,7 +704,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_serverreactor.c.o: /mnt/c/Users/jacky
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -815,7 +714,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_serverreactor.c.o: /mnt/c/Users/jacky
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/_subinterpreter_main.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_subinterpreter_main.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h \
@@ -875,114 +884,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_subinterpreter_main.c.o: /mnt/c/Users
   /usr/include/linux/limits.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -1009,12 +910,14 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_subinterpreter_main.c.o: /mnt/c/Users
   /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
   /usr/include/x86_64-linux-gnu/bits/local_lim.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/math-vector.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
   /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
   /usr/include/x86_64-linux-gnu/bits/mathinline.h \
   /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -1077,7 +980,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_subinterpreter_main.c.o: /mnt/c/Users
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -1088,7 +990,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/_subinterpreter_main.c.o: /mnt/c/Users
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_action.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_action.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_token.h \
@@ -1125,114 +1137,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_action.c.o: /mnt/c/Users/ja
   /usr/include/linux/types.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -1341,7 +1245,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_action.c.o: /mnt/c/Users/ja
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -1352,7 +1255,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_action.c.o: /mnt/c/Users/ja
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_port.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_port.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h \
@@ -1394,114 +1407,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_port.c.o: /mnt/c/Users/jack
   /usr/include/linux/types.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -1610,7 +1515,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_port.c.o: /mnt/c/Users/jack
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -1621,7 +1525,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_port.c.o: /mnt/c/Users/jack
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_tag.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_tag.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_token.h \
@@ -1659,114 +1673,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_tag.c.o: /mnt/c/Users/jacky
   /usr/include/linux/types.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -1875,7 +1781,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_tag.c.o: /mnt/c/Users/jacky
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -1886,7 +1791,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_tag.c.o: /mnt/c/Users/jacky
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_time.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_time.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_token.h \
@@ -1923,114 +1938,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_time.c.o: /mnt/c/Users/jack
   /usr/include/linux/types.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -2139,7 +2046,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_time.c.o: /mnt/c/Users/jack
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -2150,7 +2056,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/python_time.c.o: /mnt/c/Users/jack
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/lib/pythontarget.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/pythontarget.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/environment.h \
@@ -2198,114 +2214,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/pythontarget.c.o: /mnt/c/Users/jac
   /usr/include/linux/types.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -2415,7 +2323,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/pythontarget.c.o: /mnt/c/Users/jac
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -2426,7 +2333,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/lib/pythontarget.c.o: /mnt/c/Users/jac
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 CMakeFiles/LinguaFrancasubinterpreter.dir/lib/schedule.c.o: /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/schedule.c \
   /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h \
@@ -2563,114 +2580,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
   /usr/include/linux/types.h \
   /usr/include/math.h \
   /usr/include/pthread.h \
-  /usr/include/python3.11/Python.h \
-  /usr/include/python3.11/abstract.h \
-  /usr/include/python3.11/bltinmodule.h \
-  /usr/include/python3.11/boolobject.h \
-  /usr/include/python3.11/bytearrayobject.h \
-  /usr/include/python3.11/bytesobject.h \
-  /usr/include/python3.11/ceval.h \
-  /usr/include/python3.11/codecs.h \
-  /usr/include/python3.11/compile.h \
-  /usr/include/python3.11/complexobject.h \
-  /usr/include/python3.11/cpython/abstract.h \
-  /usr/include/python3.11/cpython/bytearrayobject.h \
-  /usr/include/python3.11/cpython/bytesobject.h \
-  /usr/include/python3.11/cpython/cellobject.h \
-  /usr/include/python3.11/cpython/ceval.h \
-  /usr/include/python3.11/cpython/classobject.h \
-  /usr/include/python3.11/cpython/code.h \
-  /usr/include/python3.11/cpython/compile.h \
-  /usr/include/python3.11/cpython/complexobject.h \
-  /usr/include/python3.11/cpython/context.h \
-  /usr/include/python3.11/cpython/descrobject.h \
-  /usr/include/python3.11/cpython/dictobject.h \
-  /usr/include/python3.11/cpython/fileobject.h \
-  /usr/include/python3.11/cpython/fileutils.h \
-  /usr/include/python3.11/cpython/floatobject.h \
-  /usr/include/python3.11/cpython/funcobject.h \
-  /usr/include/python3.11/cpython/genobject.h \
-  /usr/include/python3.11/cpython/import.h \
-  /usr/include/python3.11/cpython/initconfig.h \
-  /usr/include/python3.11/cpython/listobject.h \
-  /usr/include/python3.11/cpython/longintrepr.h \
-  /usr/include/python3.11/cpython/longobject.h \
-  /usr/include/python3.11/cpython/methodobject.h \
-  /usr/include/python3.11/cpython/modsupport.h \
-  /usr/include/python3.11/cpython/object.h \
-  /usr/include/python3.11/cpython/objimpl.h \
-  /usr/include/python3.11/cpython/odictobject.h \
-  /usr/include/python3.11/cpython/picklebufobject.h \
-  /usr/include/python3.11/cpython/pyctype.h \
-  /usr/include/python3.11/cpython/pydebug.h \
-  /usr/include/python3.11/cpython/pyerrors.h \
-  /usr/include/python3.11/cpython/pyfpe.h \
-  /usr/include/python3.11/cpython/pyframe.h \
-  /usr/include/python3.11/cpython/pylifecycle.h \
-  /usr/include/python3.11/cpython/pymem.h \
-  /usr/include/python3.11/cpython/pystate.h \
-  /usr/include/python3.11/cpython/pythonrun.h \
-  /usr/include/python3.11/cpython/pythread.h \
-  /usr/include/python3.11/cpython/pytime.h \
-  /usr/include/python3.11/cpython/setobject.h \
-  /usr/include/python3.11/cpython/sysmodule.h \
-  /usr/include/python3.11/cpython/traceback.h \
-  /usr/include/python3.11/cpython/tupleobject.h \
-  /usr/include/python3.11/cpython/unicodeobject.h \
-  /usr/include/python3.11/cpython/warnings.h \
-  /usr/include/python3.11/cpython/weakrefobject.h \
-  /usr/include/python3.11/descrobject.h \
-  /usr/include/python3.11/dictobject.h \
-  /usr/include/python3.11/enumobject.h \
-  /usr/include/python3.11/exports.h \
-  /usr/include/python3.11/fileobject.h \
-  /usr/include/python3.11/fileutils.h \
-  /usr/include/python3.11/floatobject.h \
-  /usr/include/python3.11/genericaliasobject.h \
-  /usr/include/python3.11/import.h \
-  /usr/include/python3.11/intrcheck.h \
-  /usr/include/python3.11/iterobject.h \
-  /usr/include/python3.11/listobject.h \
-  /usr/include/python3.11/longobject.h \
-  /usr/include/python3.11/memoryobject.h \
-  /usr/include/python3.11/methodobject.h \
-  /usr/include/python3.11/modsupport.h \
-  /usr/include/python3.11/moduleobject.h \
-  /usr/include/python3.11/object.h \
-  /usr/include/python3.11/objimpl.h \
-  /usr/include/python3.11/osmodule.h \
-  /usr/include/python3.11/patchlevel.h \
-  /usr/include/python3.11/pybuffer.h \
-  /usr/include/python3.11/pycapsule.h \
-  /usr/include/python3.11/pyconfig.h \
-  /usr/include/python3.11/pyerrors.h \
-  /usr/include/python3.11/pyframe.h \
-  /usr/include/python3.11/pyhash.h \
-  /usr/include/python3.11/pylifecycle.h \
-  /usr/include/python3.11/pymacconfig.h \
-  /usr/include/python3.11/pymacro.h \
-  /usr/include/python3.11/pymath.h \
-  /usr/include/python3.11/pymem.h \
-  /usr/include/python3.11/pyport.h \
-  /usr/include/python3.11/pystate.h \
-  /usr/include/python3.11/pystrcmp.h \
-  /usr/include/python3.11/pystrtod.h \
-  /usr/include/python3.11/pythonrun.h \
-  /usr/include/python3.11/pythread.h \
-  /usr/include/python3.11/pytypedefs.h \
-  /usr/include/python3.11/rangeobject.h \
-  /usr/include/python3.11/setobject.h \
-  /usr/include/python3.11/sliceobject.h \
-  /usr/include/python3.11/structmember.h \
-  /usr/include/python3.11/structseq.h \
-  /usr/include/python3.11/sysmodule.h \
-  /usr/include/python3.11/traceback.h \
-  /usr/include/python3.11/tracemalloc.h \
-  /usr/include/python3.11/tupleobject.h \
-  /usr/include/python3.11/typeslots.h \
-  /usr/include/python3.11/unicodeobject.h \
-  /usr/include/python3.11/warnings.h \
-  /usr/include/python3.11/weakrefobject.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
@@ -2780,7 +2689,6 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/python3.11/pyconfig.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/stat.h \
@@ -2791,7 +2699,117 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h \
-  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h
+  /usr/lib/gcc/x86_64-linux-gnu/9/include/syslimits.h \
+  /usr/local/include/python3.12/Python.h \
+  /usr/local/include/python3.12/abstract.h \
+  /usr/local/include/python3.12/bltinmodule.h \
+  /usr/local/include/python3.12/boolobject.h \
+  /usr/local/include/python3.12/bytearrayobject.h \
+  /usr/local/include/python3.12/bytesobject.h \
+  /usr/local/include/python3.12/ceval.h \
+  /usr/local/include/python3.12/codecs.h \
+  /usr/local/include/python3.12/compile.h \
+  /usr/local/include/python3.12/complexobject.h \
+  /usr/local/include/python3.12/cpython/abstract.h \
+  /usr/local/include/python3.12/cpython/bytearrayobject.h \
+  /usr/local/include/python3.12/cpython/bytesobject.h \
+  /usr/local/include/python3.12/cpython/cellobject.h \
+  /usr/local/include/python3.12/cpython/ceval.h \
+  /usr/local/include/python3.12/cpython/classobject.h \
+  /usr/local/include/python3.12/cpython/code.h \
+  /usr/local/include/python3.12/cpython/compile.h \
+  /usr/local/include/python3.12/cpython/complexobject.h \
+  /usr/local/include/python3.12/cpython/context.h \
+  /usr/local/include/python3.12/cpython/descrobject.h \
+  /usr/local/include/python3.12/cpython/dictobject.h \
+  /usr/local/include/python3.12/cpython/fileobject.h \
+  /usr/local/include/python3.12/cpython/fileutils.h \
+  /usr/local/include/python3.12/cpython/floatobject.h \
+  /usr/local/include/python3.12/cpython/funcobject.h \
+  /usr/local/include/python3.12/cpython/genobject.h \
+  /usr/local/include/python3.12/cpython/import.h \
+  /usr/local/include/python3.12/cpython/initconfig.h \
+  /usr/local/include/python3.12/cpython/listobject.h \
+  /usr/local/include/python3.12/cpython/longintrepr.h \
+  /usr/local/include/python3.12/cpython/longobject.h \
+  /usr/local/include/python3.12/cpython/memoryobject.h \
+  /usr/local/include/python3.12/cpython/methodobject.h \
+  /usr/local/include/python3.12/cpython/modsupport.h \
+  /usr/local/include/python3.12/cpython/object.h \
+  /usr/local/include/python3.12/cpython/objimpl.h \
+  /usr/local/include/python3.12/cpython/odictobject.h \
+  /usr/local/include/python3.12/cpython/picklebufobject.h \
+  /usr/local/include/python3.12/cpython/pyctype.h \
+  /usr/local/include/python3.12/cpython/pydebug.h \
+  /usr/local/include/python3.12/cpython/pyerrors.h \
+  /usr/local/include/python3.12/cpython/pyfpe.h \
+  /usr/local/include/python3.12/cpython/pyframe.h \
+  /usr/local/include/python3.12/cpython/pylifecycle.h \
+  /usr/local/include/python3.12/cpython/pymem.h \
+  /usr/local/include/python3.12/cpython/pystate.h \
+  /usr/local/include/python3.12/cpython/pythonrun.h \
+  /usr/local/include/python3.12/cpython/pythread.h \
+  /usr/local/include/python3.12/cpython/pytime.h \
+  /usr/local/include/python3.12/cpython/setobject.h \
+  /usr/local/include/python3.12/cpython/sysmodule.h \
+  /usr/local/include/python3.12/cpython/traceback.h \
+  /usr/local/include/python3.12/cpython/tupleobject.h \
+  /usr/local/include/python3.12/cpython/unicodeobject.h \
+  /usr/local/include/python3.12/cpython/warnings.h \
+  /usr/local/include/python3.12/cpython/weakrefobject.h \
+  /usr/local/include/python3.12/descrobject.h \
+  /usr/local/include/python3.12/dictobject.h \
+  /usr/local/include/python3.12/enumobject.h \
+  /usr/local/include/python3.12/exports.h \
+  /usr/local/include/python3.12/fileobject.h \
+  /usr/local/include/python3.12/fileutils.h \
+  /usr/local/include/python3.12/floatobject.h \
+  /usr/local/include/python3.12/genericaliasobject.h \
+  /usr/local/include/python3.12/import.h \
+  /usr/local/include/python3.12/intrcheck.h \
+  /usr/local/include/python3.12/iterobject.h \
+  /usr/local/include/python3.12/listobject.h \
+  /usr/local/include/python3.12/longobject.h \
+  /usr/local/include/python3.12/memoryobject.h \
+  /usr/local/include/python3.12/methodobject.h \
+  /usr/local/include/python3.12/modsupport.h \
+  /usr/local/include/python3.12/moduleobject.h \
+  /usr/local/include/python3.12/object.h \
+  /usr/local/include/python3.12/objimpl.h \
+  /usr/local/include/python3.12/osmodule.h \
+  /usr/local/include/python3.12/patchlevel.h \
+  /usr/local/include/python3.12/pybuffer.h \
+  /usr/local/include/python3.12/pycapsule.h \
+  /usr/local/include/python3.12/pyconfig.h \
+  /usr/local/include/python3.12/pyerrors.h \
+  /usr/local/include/python3.12/pyframe.h \
+  /usr/local/include/python3.12/pyhash.h \
+  /usr/local/include/python3.12/pylifecycle.h \
+  /usr/local/include/python3.12/pymacconfig.h \
+  /usr/local/include/python3.12/pymacro.h \
+  /usr/local/include/python3.12/pymath.h \
+  /usr/local/include/python3.12/pymem.h \
+  /usr/local/include/python3.12/pyport.h \
+  /usr/local/include/python3.12/pystate.h \
+  /usr/local/include/python3.12/pystats.h \
+  /usr/local/include/python3.12/pystrcmp.h \
+  /usr/local/include/python3.12/pystrtod.h \
+  /usr/local/include/python3.12/pythonrun.h \
+  /usr/local/include/python3.12/pythread.h \
+  /usr/local/include/python3.12/pytypedefs.h \
+  /usr/local/include/python3.12/rangeobject.h \
+  /usr/local/include/python3.12/setobject.h \
+  /usr/local/include/python3.12/sliceobject.h \
+  /usr/local/include/python3.12/structmember.h \
+  /usr/local/include/python3.12/structseq.h \
+  /usr/local/include/python3.12/sysmodule.h \
+  /usr/local/include/python3.12/traceback.h \
+  /usr/local/include/python3.12/tracemalloc.h \
+  /usr/local/include/python3.12/tupleobject.h \
+  /usr/local/include/python3.12/typeslots.h \
+  /usr/local/include/python3.12/unicodeobject.h \
+  /usr/local/include/python3.12/warnings.h \
+  /usr/local/include/python3.12/weakrefobject.h
 
 
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_time.h:
@@ -2799,6 +2817,8 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/pythontarget.c:
 
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_port.c:
+
+/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/uio_lim.h:
 
@@ -2812,23 +2832,17 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
 
 /usr/include/x86_64-linux-gnu/bits/statx-generic.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
 /usr/include/linux/stddef.h:
 
-/usr/include/linux/stat.h:
-
-/usr/include/linux/posix_types.h:
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
 /usr/include/asm-generic/bitsperlong.h:
 
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_subinterpreter_main.h:
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_action.c:
 
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_subinterpreter_main.c:
 
@@ -2842,527 +2856,343 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
 
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_clientreactor.c:
 
-/usr/include/python3.11/pyconfig.h:
+/usr/local/include/python3.12/weakrefobject.h:
 
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/trace.h:
+/usr/local/include/python3.12/warnings.h:
 
-/usr/include/python3.11/pycapsule.h:
+/usr/local/include/python3.12/typeslots.h:
 
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+/usr/local/include/python3.12/tupleobject.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/python3.11/patchlevel.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/schedule.c:
-
-/usr/include/x86_64-linux-gnu/sys/stat.h:
-
-/usr/include/python3.11/objimpl.h:
-
-/usr/include/python3.11/cpython/longintrepr.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
-
-/usr/include/python3.11/memoryobject.h:
-
-/usr/include/python3.11/cpython/pythonrun.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/python3.11/listobject.h:
-
-/usr/include/python3.11/import.h:
-
-/usr/include/string.h:
-
-/usr/include/python3.11/cpython/warnings.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform/lf_linux_support.h:
-
-/usr/include/python3.11/cpython/traceback.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/python3.11/pyhash.h:
-
-/usr/include/python3.11/floatobject.h:
-
-/usr/include/python3.11/cpython/modsupport.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/python3.11/cpython/pylifecycle.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/threaded/scheduler.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/python3.11/cpython/pyframe.h:
-
-/usr/include/python3.11/typeslots.h:
-
-/usr/include/python3.11/cpython/pydebug.h:
-
-/usr/include/python3.11/cpython/picklebufobject.h:
-
-/usr/include/python3.11/cpython/object.h:
-
-/usr/include/python3.11/exports.h:
-
-/usr/include/python3.11/iterobject.h:
-
-/usr/include/python3.11/moduleobject.h:
-
-/usr/include/python3.11/cpython/initconfig.h:
-
-/usr/include/python3.11/cpython/genobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/python3.11/cpython/funcobject.h:
-
-/usr/include/x86_64-linux-gnu/python3.11/pyconfig.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
-
-/usr/include/python3.11/enumobject.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
-
-/usr/include/python3.11/dictobject.h:
-
-/usr/include/python3.11/cpython/listobject.h:
-
-/usr/include/python3.11/cpython/floatobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/python3.11/cpython/fileutils.h:
-
-/usr/include/python3.11/complexobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
-
-/usr/include/python3.11/cpython/dictobject.h:
-
-/usr/include/python3.11/cpython/bytesobject.h:
-
-/usr/include/python3.11/cpython/context.h:
-
-/usr/include/python3.11/pymath.h:
-
-/usr/include/python3.11/cpython/code.h:
-
-/usr/include/stdint.h:
-
-/usr/include/python3.11/bltinmodule.h:
-
-/usr/include/python3.11/cpython/objimpl.h:
-
-/usr/include/endian.h:
-
-/usr/include/python3.11/warnings.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/python3.11/cpython/cellobject.h:
-
-/usr/include/python3.11/cpython/classobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/python3.11/ceval.h:
-
-/usr/include/python3.11/pymacconfig.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/util.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_tag.c:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_clientreactor.h:
-
-/usr/include/python3.11/codecs.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/pqueue.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform/lf_C11_threads_support.h:
-
-/usr/include/stdio.h:
-
-/usr/include/python3.11/pylifecycle.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_capsule_extension.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_tag.h:
-
-/usr/include/python3.11/cpython/abstract.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_token.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_port.h:
-
-/usr/include/x86_64-linux-gnu/bits/setjmp.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/alloca.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/subinterpreter/_lf_GenDelay_0.h:
-
-/usr/include/python3.11/pystrcmp.h:
-
-/usr/include/python3.11/cpython/methodobject.h:
-
-/usr/include/python3.11/pyerrors.h:
-
-/usr/include/python3.11/cpython/unicodeobject.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/asm-generic/posix_types.h:
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
-/usr/include/python3.11/cpython/pyctype.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/set_undef.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/python3.11/intrcheck.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/__lf_gendelay_0.h:
-
-/usr/include/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/python3.11/cpython/setobject.h:
-
-/usr/include/python3.11/structseq.h:
-
-/usr/include/python3.11/fileutils.h:
-
-/usr/include/x86_64-linux-gnu/bits/statx.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_action.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/modal_models/definitions.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_action.h:
 
-/usr/include/limits.h:
+/usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/python3.11/cpython/complexobject.h:
+/usr/local/include/python3.12/pylifecycle.h:
 
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform/lf_tag_64_32.h:
-
-/usr/include/python3.11/osmodule.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_types.h:
-
-/usr/include/python3.11/bytesobject.h:
-
-/usr/include/python3.11/cpython/bytearrayobject.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/pythontarget.h:
-
-/usr/include/python3.11/cpython/pytime.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
-/usr/include/python3.11/cpython/pyerrors.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/tag.h:
-
-/usr/include/python3.11/descrobject.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/port.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/python3.11/cpython/odictobject.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/reactor.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/environment.h:
-
-/usr/include/python3.11/cpython/fileobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/sched.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/vector.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h:
-
-/usr/include/linux/types.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/set.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/python3.11/genericaliasobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/threaded/scheduler_instance.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/python3.11/longobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/semaphore.h:
-
-/usr/include/math.h:
-
-/usr/include/assert.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/modal_models/modes.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/mixed_radix.h:
-
-/usr/include/errno.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_action.c:
-
-/usr/include/python3.11/cpython/import.h:
-
-/usr/include/python3.11/cpython/descrobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-/usr/include/python3.11/pyframe.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/python3.11/methodobject.h:
+/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
 /usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
 
-/usr/include/python3.11/cpython/weakrefobject.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/python3.11/Python.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/python3.11/cpython/ceval.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/python3.11/boolobject.h:
-
-/usr/include/python3.11/pybuffer.h:
-
-/usr/include/python3.11/cpython/longobject.h:
-
-/usr/include/python3.11/compile.h:
-
-/usr/include/python3.11/pymacro.h:
-
-/usr/include/python3.11/pyport.h:
-
-/usr/include/python3.11/pymem.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/reactor_common.h:
-
-/usr/include/python3.11/pystate.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/python3.11/pytypedefs.h:
-
-/usr/include/python3.11/cpython/pystate.h:
-
-/usr/include/python3.11/traceback.h:
-
-/usr/include/python3.11/setobject.h:
-
-/usr/include/python3.11/sliceobject.h:
-
-/usr/include/python3.11/structmember.h:
-
-/usr/include/python3.11/sysmodule.h:
-
-/usr/include/python3.11/tracemalloc.h:
-
-/usr/include/python3.11/cpython/pyfpe.h:
-
-/usr/include/python3.11/object.h:
-
-/usr/include/strings.h:
-
-/usr/include/python3.11/tupleobject.h:
-
-/usr/include/python3.11/unicodeobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/python3.11/pystrtod.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/python3.11/weakrefobject.h:
-
-/usr/include/sched.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/threads.h:
-
-/usr/include/x86_64-linux-gnu/asm/posix_types.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/stdlib.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_serverreactor.c:
-
-/usr/include/unistd.h:
-
-/usr/include/wchar.h:
-
-/usr/include/inttypes.h:
-
-/usr/include/python3.11/pythonrun.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/python3.11/cpython/pymem.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/python3.11/rangeobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/python3.11/abstract.h:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/python3.11/pythread.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/python3.11/fileobject.h:
-
-/usr/include/python3.11/bytearrayobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/python3.11/cpython/compile.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathinline.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/python3.11/modsupport.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/__lf_gendelay_0.c:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
-
-/usr/include/python3.11/cpython/tupleobject.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+/usr/local/include/python3.12/enumobject.h:
 
 /usr/include/ctype.h:
 
 /usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+/usr/include/x86_64-linux-gnu/bits/statx.h:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+/usr/local/include/python3.12/cpython/dictobject.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/pthread.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_token.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/reactor.h:
+
+/usr/local/include/python3.12/pytypedefs.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/local/include/python3.12/cpython/weakrefobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/util.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_port.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/threads.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/local/include/python3.12/cpython/object.h:
+
+/usr/local/include/python3.12/pyport.h:
+
+/usr/include/wchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/local/include/python3.12/codecs.h:
+
+/usr/local/include/python3.12/fileobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_capsule_extension.h:
+
+/usr/local/include/python3.12/methodobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/python_tag.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/pqueue.h:
+
+/usr/local/include/python3.12/pythread.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform/lf_linux_support.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform/lf_C11_threads_support.h:
+
+/usr/local/include/python3.12/cpython/memoryobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/__lf_gendelay_0.h:
+
+/usr/include/time.h:
+
+/usr/include/stdio.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
+/usr/include/pthread.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/subinterpreter/_lf_GenDelay_0.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/local/include/python3.12/cpython/import.h:
+
+/usr/local/include/python3.12/cpython/pydebug.h:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/local/include/python3.12/pyframe.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/local/include/python3.12/bytesobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/__lf_gendelay_0.c:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
+
+/usr/local/include/python3.12/cpython/listobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/reactor_common.h:
+
+/usr/include/limits.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/local/include/python3.12/genericaliasobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/trace.h:
+
+/usr/local/include/python3.12/cpython/pylifecycle.h:
+
+/usr/local/include/python3.12/floatobject.h:
+
+/usr/local/include/python3.12/pystats.h:
+
+/usr/include/x86_64-linux-gnu/asm/posix_types_64.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/linux/types.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/set.h:
+
+/usr/local/include/python3.12/pymacro.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/local/include/python3.12/pystrtod.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_serverreactor.c:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/stdint.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/lf_types.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/pythontarget.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/tag.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/local/include/python3.12/pyconfig.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/local/include/python3.12/cpython/pyframe.h:
+
+/usr/local/include/python3.12/pystrcmp.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/inttypes.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/environment.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+/usr/local/include/python3.12/compile.h:
+
+/usr/local/include/python3.12/cpython/pyctype.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/threaded/scheduler.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/vector.h:
+
+/usr/local/include/python3.12/cpython/pystate.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/local/include/python3.12/memoryobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/api.h:
+
+/usr/local/include/python3.12/object.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+
+/usr/local/include/python3.12/cpython/longintrepr.h:
+
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
+
+/usr/local/include/python3.12/cpython/methodobject.h:
+
+/usr/local/include/python3.12/cpython/pythread.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/threaded/scheduler_instance.h:
+
+/usr/local/include/python3.12/import.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/utils/semaphore.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/math.h:
+
+/usr/local/include/python3.12/cpython/pyerrors.h:
+
+/usr/include/assert.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/modal_models/modes.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/mixed_radix.h:
+
+/usr/local/include/python3.12/unicodeobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+
+/usr/local/include/python3.12/cpython/picklebufobject.h:
+
+/usr/local/include/python3.12/cpython/pymem.h:
+
+/usr/include/errno.h:
+
+/usr/include/alloca.h:
+
+/usr/include/stdlib.h:
+
+/usr/local/include/python3.12/cpython/odictobject.h:
+
+/usr/include/string.h:
+
+/usr/local/include/python3.12/longobject.h:
+
+/usr/include/strings.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/port.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/unistd.h:
 
@@ -3370,13 +3200,25 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
-/usr/include/python3.11/cpython/sysmodule.h:
+/usr/local/include/python3.12/cpython/bytesobject.h:
+
+/usr/local/include/python3.12/descrobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/local/include/python3.12/cpython/funcobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/cpu-set.h:
+
+/usr/local/include/python3.12/pyerrors.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -3386,10 +3228,188 @@ CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o: /mnt/c/Users/jacky
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/local/include/python3.12/cpython/sysmodule.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/schedule.c:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
 /usr/include/features.h:
 
 /usr/include/x86_64-linux-gnu/sys/time.h:
 
-/usr/include/python3.11/cpython/pythread.h:
+/usr/include/linux/errno.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/linux/limits.h:
+
+/usr/local/include/python3.12/cpython/context.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/local/include/python3.12/cpython/fileobject.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/limits.h:
+
+/usr/local/include/python3.12/cpython/ceval.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/local/include/python3.12/pymacconfig.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdbool.h:
+
+/usr/local/include/python3.12/Python.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/9/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/local/include/python3.12/cpython/pythonrun.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdarg.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/9/include/stdint.h:
+
+/usr/local/include/python3.12/cpython/fileutils.h:
+
+/usr/local/include/python3.12/modsupport.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/local/include/python3.12/abstract.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/local/include/python3.12/bltinmodule.h:
+
+/usr/local/include/python3.12/boolobject.h:
+
+/usr/include/linux/stat.h:
+
+/usr/local/include/python3.12/bytearrayobject.h:
+
+/usr/local/include/python3.12/sliceobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_subinterpreter_main.h:
+
+/usr/local/include/python3.12/traceback.h:
+
+/usr/local/include/python3.12/ceval.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/api/set_undef.h:
+
+/usr/local/include/python3.12/complexobject.h:
+
+/usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/local/include/python3.12/cpython/abstract.h:
+
+/usr/local/include/python3.12/cpython/bytearrayobject.h:
+
+/usr/local/include/python3.12/cpython/warnings.h:
+
+/usr/local/include/python3.12/cpython/classobject.h:
+
+/usr/local/include/python3.12/cpython/code.h:
+
+/usr/local/include/python3.12/cpython/compile.h:
+
+/usr/local/include/python3.12/patchlevel.h:
+
+/usr/local/include/python3.12/cpython/complexobject.h:
+
+/usr/local/include/python3.12/structseq.h:
+
+/usr/local/include/python3.12/cpython/descrobject.h:
+
+/usr/local/include/python3.12/cpython/floatobject.h:
+
+/usr/local/include/python3.12/cpython/genobject.h:
+
+/usr/local/include/python3.12/cpython/initconfig.h:
+
+/usr/local/include/python3.12/cpython/modsupport.h:
+
+/usr/local/include/python3.12/cpython/setobject.h:
+
+/usr/local/include/python3.12/cpython/objimpl.h:
+
+/usr/local/include/python3.12/cpython/pyfpe.h:
+
+/usr/local/include/python3.12/cpython/cellobject.h:
+
+/usr/local/include/python3.12/cpython/pytime.h:
+
+/usr/include/sched.h:
+
+/usr/local/include/python3.12/cpython/traceback.h:
+
+/usr/local/include/python3.12/osmodule.h:
+
+/usr/local/include/python3.12/pystate.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/include/core/platform/lf_tag_64_32.h:
+
+/usr/local/include/python3.12/cpython/tupleobject.h:
+
+/usr/local/include/python3.12/cpython/unicodeobject.h:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/lib/python_tag.c:
+
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/_clientreactor.h:
+
+/usr/local/include/python3.12/dictobject.h:
+
+/usr/local/include/python3.12/fileutils.h:
+
+/usr/local/include/python3.12/iterobject.h:
+
+/usr/local/include/python3.12/exports.h:
+
+/usr/local/include/python3.12/listobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/local/include/python3.12/moduleobject.h:
+
+/usr/local/include/python3.12/objimpl.h:
+
+/usr/local/include/python3.12/pycapsule.h:
+
+/usr/local/include/python3.12/pyhash.h:
+
+/usr/local/include/python3.12/pymath.h:
+
+/usr/local/include/python3.12/intrcheck.h:
+
+/usr/local/include/python3.12/pybuffer.h:
+
+/usr/local/include/python3.12/pymem.h:
+
+/usr/local/include/python3.12/pythonrun.h:
+
+/usr/local/include/python3.12/rangeobject.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
+
+/usr/local/include/python3.12/cpython/longobject.h:
+
+/usr/local/include/python3.12/setobject.h:
+
+/usr/include/linux/posix_types.h:
+
+/usr/local/include/python3.12/structmember.h:
+
+/usr/local/include/python3.12/sysmodule.h:
+
+/usr/local/include/python3.12/tracemalloc.h:

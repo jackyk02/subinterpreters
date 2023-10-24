@@ -234,7 +234,45 @@ const char** _lf_py_parse_argv_impl(PyObject* py_argv, size_t* argc) {
     return argv;
 }
 
+/**
+ * A function that creates the subinterpreter with its own GIL
+ **/
+static PyObject* interp_create()
+{
+    // Create and initialize the new interpreter.
+    PyThreadState* save_tstate = PyThreadState_Get();
+    assert(save_tstate != NULL);
+    PyInterpreterConfig config = {
+        .use_main_obmalloc = 0,
+        .allow_fork = 0,
+        .allow_exec = 0,
+        .allow_threads = 1,
+        .allow_daemon_threads = 0,
+        .check_multi_interp_extensions = 1,
+        .gil = PyInterpreterConfig_OWN_GIL,
+    };
+    // XXX Possible GILState issues?
+    PyThreadState* tstate = NULL;
+    PyStatus status = Py_NewInterpreterFromConfig(&tstate, &config);
+    PyThreadState_Swap(save_tstate);
+    if (PyStatus_Exception(status)) {
+        /* Since no new thread state was created, there is no exception to
+           propagate; raise a fresh one after swapping in the old thread
+           state. */
+        _PyErr_SetFromPyStatus(status);
+        PyObject* exc = PyErr_GetRaisedException();
+        PyErr_SetString(PyExc_RuntimeError, "interpreter creation failed");
+        _PyErr_ChainExceptions1(exc);
+        return NULL;
+    }
+    assert(tstate != NULL);
+    PyInterpreterState* interp = PyThreadState_GetInterpreter(tstate);
+    return interp;
+}
+
+
 static bool py_initialized = false;
+PyInterpreterState* interp_list[NUMBER_OF_WORKERS];
 
 /**
  * @brief Initialize the Python interpreter if it hasn't already been.
@@ -245,6 +283,12 @@ void py_initialize_interpreter(void) {
 
         // Initialize the Python interpreter
         Py_Initialize();
+
+        // Initialize the subinterpreters for each reactor
+        for (int i = 0; i < NUMBER_OF_WORKERS; i++) {
+            interp_list[i] = interp_create();
+            LF_PRINT_DEBUG("Created Subinterpreter %d", i);
+        }
 
         LF_PRINT_DEBUG("Initialized the Python interpreter.");
     }
