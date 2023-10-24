@@ -79,6 +79,10 @@ lf_token_t* lf_new_token(void* port_or_action, void* val, size_t len) {
     return _lf_new_token((token_type_t*)port_or_action, val, len);
 }
 
+lf_token_t* lf_new_token_interp(void* port_or_action, void* val, size_t len, void* current_interp) {
+    return _lf_new_token_interp((token_type_t*)port_or_action, val, len, current_interp);
+}
+
 lf_token_t* lf_writable_copy(lf_port_base_t* port) {
     assert(port != NULL);
 
@@ -138,8 +142,8 @@ void _lf_free_token_value(lf_token_t* token) {
         LF_PRINT_DEBUG("_lf_free_token_value: Freeing allocated memory for payload (token value): %p",
             token->value);
         // First check the token's destructor field and invoke it if it is not NULL.
-        if (token->type->destructor != NULL) {
-            token->type->destructor(token->value);
+        if (token->type->destructor != NULL && token->current_interp != NULL) {
+            token->type->destructor(token->value, token->current_interp); 
         }
         // If Python Target is not enabled and destructor is NULL
         // Token values should be freed
@@ -191,7 +195,7 @@ token_freed _lf_free_token(lf_token_t* token) {
     return result;
 }
 
-lf_token_t* _lf_new_token(token_type_t* type, void* value, size_t length) {
+lf_token_t* _lf_new_token_interp(token_type_t* type, void* value, size_t length, void* current_interp) {
     lf_token_t* result = NULL;
     // Check the recycling bin.
     if (lf_critical_section_enter(GLOBAL_ENVIRONMENT) != 0) {
@@ -218,8 +222,40 @@ lf_token_t* _lf_new_token(token_type_t* type, void* value, size_t length) {
     result->length = length;
     result->value = value;
     result->ref_count = 0;
+    result->current_interp = current_interp;
     return result;
 }
+
+lf_token_t* _lf_new_token(token_type_t* type, void* value, size_t length) {
+    lf_token_t* result = NULL;
+    // Check the recycling bin.
+    if (lf_critical_section_enter(GLOBAL_ENVIRONMENT) != 0) {
+        lf_print_error_and_exit("Could not enter critical section");
+    }
+    if (_lf_token_recycling_bin != NULL) {
+        hashset_itr_t iterator = hashset_iterator(_lf_token_recycling_bin);
+        if (hashset_iterator_next(iterator) >= 0) {
+            result = hashset_iterator_value(iterator);
+            hashset_remove(_lf_token_recycling_bin, result);
+            LF_PRINT_DEBUG("_lf_new_token: Retrieved token from the recycling bin: %p", result);
+        }
+        free(iterator);
+    }
+    if (lf_critical_section_exit(GLOBAL_ENVIRONMENT) != 0) {
+        lf_print_error_and_exit("Could not leave critical section");
+    }
+    if (result == NULL) {
+        // Nothing found on the recycle bin.
+        result = (lf_token_t*)calloc(1, sizeof(lf_token_t));
+        LF_PRINT_DEBUG("_lf_new_token: Allocated memory for token: %p", result);
+    }
+    result->type = type;
+    result->length = length;
+    result->value = value;
+    result->ref_count = 0;
+    return result;
+}
+
 
 lf_token_t* _lf_get_token(token_template_t* tmplt) {
     if (tmplt->token != NULL) {

@@ -90,7 +90,7 @@ typedef struct token_type_t {
     /** Size of the struct or array element. */
     size_t element_size;
     /** The destructor or NULL to use the default free(). */
-    void (*destructor) (void* value);
+    void (*destructor) (void* value, void* interp);
     /** The copy constructor or NULL to use memcpy. */
     void* (*copy_constructor) (void* value);
 } token_type_t;
@@ -124,6 +124,7 @@ typedef struct lf_token_t {
     size_t ref_count;
     /** Convenience for constructing a temporary list of tokens. */
     struct lf_token_t* next;
+    void* current_interp;
 } lf_token_t;
 
 /**
@@ -217,8 +218,8 @@ extern int _lf_count_token_allocations;
  * @param len The length, or 1 if it not an array.
  * @return A pointer to a lf_token_t struct. 
  */
+lf_token_t* lf_new_token_interp (void* port_or_action, void* val, size_t len, void* current_interp);
 lf_token_t* lf_new_token(void* port_or_action, void* val, size_t len);
-
 /**
  * Return a writable copy of the token in the specified template.
  * If the reference count is 1, this returns the template's token
@@ -266,6 +267,7 @@ token_freed _lf_free_token(lf_token_t* token);
  *  or 0 to have no value.
  * @return lf_token_t* 
  */
+lf_token_t* _lf_new_token_interp(token_type_t* type, void* value, size_t length, void* current_interp);
 lf_token_t* _lf_new_token(token_type_t* type, void* value, size_t length);
 
 /**

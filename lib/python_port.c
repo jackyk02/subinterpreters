@@ -47,9 +47,23 @@ PyTypeObject py_port_capsule_t;
  * Python can free its memory.
  * @param py_object A PyObject with count 1 or greater.
  */
-void python_count_decrement(void* py_object) {
-    //comment out to test subinterpreters
+void python_count_decrement(void* py_object, void* current_interp) {
+    lf_print("DECREMEENTING INTERP: %p", current_interp);
+    // Switch to subinterpreter
+    PyInterpreterState* interp = (PyInterpreterState*) current_interp;
+    PyThreadState* save_tstate = NULL;
+    if (interp != PyInterpreterState_Get()) {
+        PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+        save_tstate = PyThreadState_Swap(tstate);
+        lf_print("switched state");
+    }
+    //decresae ref count for the object
     //Py_XDECREF((PyObject*)py_object);
+
+    // Switch back to global interpreter
+    if (save_tstate != NULL) {
+        PyThreadState_Swap(save_tstate);
+    }
 }
 
 //////////// set Function(s) /////////////
@@ -101,8 +115,9 @@ PyObject* py_port_set(PyObject* self, PyObject* args) {
         LF_PRINT_DEBUG("Setting value %p with reference count %d.", val, (int) Py_REFCNT(val));
         //Py_INCREF(val);
         //python_count_decrement(port->value);
+        PyInterpreterState* current_interp = PyInterpreterState_Get();
        
-        lf_token_t* token = lf_new_token((void*)port, val, 1);
+        lf_token_t* token = lf_new_token_interp((void*)port, val, 1, (void*)current_interp);
         lf_set_destructor(port, python_count_decrement);
         lf_set_token(port, token);
         Py_INCREF(val);
