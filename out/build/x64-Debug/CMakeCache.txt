@@ -323,6 +323,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 _Python_CONFIG:INTERNAL=_Python_CONFIG-NOTFOUND
 //Compiler reason failure
 _Python_Compiler_REASON_FAILURE:INTERNAL=
+//Development reason failure
+_Python_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
 _Python_EXECUTABLE:INTERNAL=_Python_EXECUTABLE-NOTFOUND
 //Path to a library.

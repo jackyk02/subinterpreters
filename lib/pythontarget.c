@@ -437,7 +437,7 @@ void destroy_action_capsule(PyObject* capsule) {
 PyObject* convert_C_port_to_py(void* port, int width) {
     // Create the port struct in Python
     PyObject* cap =
-        (PyObject*)PyObject_GC_New(generic_port_capsule_struct, &py_port_capsule_t);
+        (PyObject*)PyObject_New(generic_port_capsule_struct, &py_port_capsule_t);
     if (cap == NULL) {
         lf_print_error_and_exit("Failed to convert port.");
     }

@@ -1,2 +1,2 @@
 #!/bin/sh
-        /usr/bin/python3.11 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/subinterpreter.py "$@"
+        /usr/local/bin/python3.12 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/subinterpreter.py "$@"

@@ -53,7 +53,7 @@ add_compile_definitions(_PYTHON_TARGET_ENABLED)
 add_subdirectory(core)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR})
 set(LF_MAIN_TARGET LinguaFrancasubinterpreter)
-find_package(Python 3.10.0...<3.12.0 REQUIRED COMPONENTS Interpreter Development)
+find_package(Python 3.12.0 REQUIRED COMPONENTS Interpreter Development)
 Python_add_library(
     ${LF_MAIN_TARGET}
     MODULE

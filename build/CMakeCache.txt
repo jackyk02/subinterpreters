@@ -354,26 +354,26 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding Python
-FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/bin/python3.11][/usr/include/python3.11][/usr/lib/x86_64-linux-gnu/libpython3.11.so][cfound components: Interpreter Development Development.Module Development.Embed ][v3.11.5(3.10.0)]
+FIND_PACKAGE_MESSAGE_DETAILS_Python:INTERNAL=[/usr/local/bin/python3.12][/usr/local/include/python3.12/][/usr/local/lib/libpython3.12.so][cfound components: Interpreter Development Development.Module Development.Embed ][v3.12.0(3.12.0)]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //Compiler reason failure
 _Python_Compiler_REASON_FAILURE:INTERNAL=
-_Python_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=cae57a040e5a7a1c45ae7191cd9145e0
-_Python_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=6f55d0242e6f98f685bc40eada656046
+_Python_DEVELOPMENT_EMBED_SIGNATURE:INTERNAL=a035f8d79150d362925a6de3d5b11c8d
+_Python_DEVELOPMENT_MODULE_SIGNATURE:INTERNAL=2301e954945c4bf6841ee1e0101c9619
 //Development reason failure
 _Python_Development_REASON_FAILURE:INTERNAL=
 //Path to a program.
-_Python_EXECUTABLE:INTERNAL=/usr/bin/python3.11
+_Python_EXECUTABLE:INTERNAL=/usr/local/bin/python3.12
 //Path to a file.
-_Python_INCLUDE_DIR:INTERNAL=/usr/include/python3.11
+_Python_INCLUDE_DIR:INTERNAL=/usr/local/include/python3.12/
 //Python Properties
-_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;11;5;64;;cpython-311-x86_64-linux-gnu;abi3;/usr/lib/python3.11;/usr/lib/python3.11;/usr/local/lib/python3.11/dist-packages;/usr/local/lib/python3.11/dist-packages
-_Python_INTERPRETER_SIGNATURE:INTERNAL=9706960aa2a868136534c4a00c8f3e22
+_Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;0;64;;cpython-312-x86_64-linux-gnu;abi3;/usr/local/lib/python3.12;/usr/local/lib/python3.12;/usr/local/lib/python3.12/site-packages;/usr/local/lib/python3.12/site-packages
+_Python_INTERPRETER_SIGNATURE:INTERNAL=f0fd2b84b8e02e86e221ace5a81c879a
 //Path to a library.
-_Python_LIBRARY_RELEASE:INTERNAL=/usr/lib/x86_64-linux-gnu/libpython3.11.so
+_Python_LIBRARY_RELEASE:INTERNAL=/usr/local/lib/libpython3.12.so
 //NumPy reason failure
 _Python_NumPy_REASON_FAILURE:INTERNAL=
 

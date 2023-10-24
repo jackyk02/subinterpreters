@@ -252,7 +252,7 @@ LinguaFrancasubinterpreter_EXTERNAL_OBJECTS =
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: CMakeFiles/LinguaFrancasubinterpreter.dir/__lf_gendelay_0.c.o
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: CMakeFiles/LinguaFrancasubinterpreter.dir/subinterpreter.c.o
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: CMakeFiles/LinguaFrancasubinterpreter.dir/build.make
-/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: /usr/lib/x86_64-linux-gnu/libpython3.11.so
+/mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: /usr/local/lib/libpython3.12.so
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: /usr/lib/x86_64-linux-gnu/libm.so
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: core/libcore.a
 /mnt/c/Users/jacky/Desktop/simple_multi/src-gen/subinterpreter/LinguaFrancasubinterpreter.so: CMakeFiles/LinguaFrancasubinterpreter.dir/link.txt
