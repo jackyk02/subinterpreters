@@ -605,7 +605,7 @@ PyObject* convert_C_action_to_py(void* action) {
  * @return The function or NULL on error.
  */
 PyObject*
-get_python_function(string module, string class, int instance_id, string func) {
+get_python_function(string module, string class, int instance_id, string func, int interp_index) {
     LF_PRINT_DEBUG("Starting the function start().");
 
     // Necessary PyObject variables to load the react() function from test.py
@@ -644,9 +644,20 @@ get_python_function(string module, string class, int instance_id, string func) {
         Py_SetPath(wcwd);
 
         LF_PRINT_DEBUG("Loading module %s in %s.", module, cwd);
-
+        // Switch to subinterpreter
+        PyInterpreterState* interp = interp_list[interp_index];
+        PyThreadState* save_tstate = NULL;
+        if (interp != PyInterpreterState_Get()) {
+            PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+            save_tstate = PyThreadState_Swap(tstate);
+            lf_print("switched state");
+        }
         pModule = PyImport_Import(pFileName);
-
+        // Switch back to global interpreter
+        if (save_tstate != NULL) {
+            PyThreadState_Swap(save_tstate);
+        }
+        pModule = PyImport_Import(pFileName);
         LF_PRINT_DEBUG("Loaded module %p.", pModule);
 
         // Free the memory occupied by pFileName
@@ -689,6 +700,20 @@ get_python_function(string module, string class, int instance_id, string func) {
         }
 
         Py_DECREF(globalPythonModuleDict);
+
+        // Switch to subinterpreter
+        PyInterpreterState* interp = interp_list[interp_index];
+        PyThreadState* save_tstate = NULL;
+        if (interp != PyInterpreterState_Get()) {
+            PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+            save_tstate = PyThreadState_Swap(tstate);
+            lf_print("switched state");
+        }
+        pClass = PyList_GetItem(pClasses, instance_id);
+        // Switch back to global interpreter
+        if (save_tstate != NULL) {
+            PyThreadState_Swap(save_tstate);
+        }
 
         pClass = PyList_GetItem(pClasses, instance_id);
         if (pClass == NULL) {

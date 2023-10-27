@@ -172,7 +172,7 @@ PyObject* convert_C_action_to_py(void* action);
  * @param func The reaction functino to be called
  * @param pArgs the PyList of arguments to be sent to function func()
  */
-PyObject* get_python_function(string module, string class, int instance_id, string func);
+PyObject* get_python_function(string module, string class, int instance_id, string func, int interp_index);
 
 /*
  * The Python runtime will call this function to initialize the module.

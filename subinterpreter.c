@@ -73,14 +73,13 @@ void _lf_initialize_trigger_objects() {
     for (int subinterpreter_client_i = 0; subinterpreter_client_i < 2; subinterpreter_client_i++) {
         // ***** Start initializing subinterpreter.client of class clientReactor
         subinterpreter_client_self[subinterpreter_client_i] = new__clientreactor(interp_index);
-        interp_index += 1;
         subinterpreter_client_self[subinterpreter_client_i]->base.environment = &envs[subinterpreter_main];
         subinterpreter_client_self[subinterpreter_client_i]->_lf_name = "subinterpreter_client_lf";
         subinterpreter_client_self[subinterpreter_client_i]->_lf_py_reaction_function_0 = 
         get_python_function("__main__", 
             subinterpreter_client_self[subinterpreter_client_i]->_lf_name,
             subinterpreter_client_i,
-            "reaction_function_0");
+            "reaction_function_0", interp_index);
         if(subinterpreter_client_self[subinterpreter_client_i]->_lf_py_reaction_function_0 == NULL) {
             lf_print_error_and_exit("Could not load function reaction_function_0");
         }
@@ -88,7 +87,7 @@ void _lf_initialize_trigger_objects() {
         get_python_function("__main__", 
             subinterpreter_client_self[subinterpreter_client_i]->_lf_name,
             subinterpreter_client_i,
-            "reaction_function_1");
+            "reaction_function_1", interp_index);
         if(subinterpreter_client_self[subinterpreter_client_i]->_lf_py_reaction_function_1 == NULL) {
             lf_print_error_and_exit("Could not load function reaction_function_1");
         }
@@ -101,6 +100,7 @@ void _lf_initialize_trigger_objects() {
     
         subinterpreter_client_self[subinterpreter_client_i]->_lf__reaction_0.deadline = NEVER;
         subinterpreter_client_self[subinterpreter_client_i]->_lf__reaction_1.deadline = NEVER;
+        interp_index += 1;
         //***** End initializing subinterpreter.client
     }
     {
@@ -113,7 +113,7 @@ void _lf_initialize_trigger_objects() {
         get_python_function("__main__", 
             subinterpreter_server_self[0]->_lf_name,
             0,
-            "reaction_function_0");
+            "reaction_function_0", interp_index);
         if(subinterpreter_server_self[0]->_lf_py_reaction_function_0 == NULL) {
             lf_print_error_and_exit("Could not load function reaction_function_0");
         }
@@ -121,7 +121,7 @@ void _lf_initialize_trigger_objects() {
         get_python_function("__main__", 
             subinterpreter_server_self[0]->_lf_name,
             0,
-            "reaction_function_1");
+            "reaction_function_1", interp_index);
         if(subinterpreter_server_self[0]->_lf_py_reaction_function_1 == NULL) {
             lf_print_error_and_exit("Could not load function reaction_function_1");
         }

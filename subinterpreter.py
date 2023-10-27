@@ -91,11 +91,8 @@ class __clientreactor:
     
 
     def reaction_function_0(self):
-    
-        
         return 0
     def reaction_function_1(self, global_parameters, updated_parameters):
-    
         time.sleep(0.1)
         new_parameter = global_parameters.value.copy()
         
