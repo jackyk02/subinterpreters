@@ -2,6 +2,8 @@
 #include "include/subinterpreter/_lf_GenDelay_0.h"
 #include "__lf_gendelay_0.h"
 #include "include/api/set.h"
+lf_mutex_t mutex;
+
 void __lf_gendelay_0reaction_function_0(void* instance_args) {
     __lf_gendelay_0_self_t* self = (__lf_gendelay_0_self_t*)instance_args; SUPPRESS_UNUSED_WARNING(self);
     // Expose the action struct as a local variable whose name matches the action name.
@@ -21,14 +23,15 @@ void __lf_gendelay_0reaction_function_1(void* instance_args) {
     int inp_width = self->_lf_inp_width; SUPPRESS_UNUSED_WARNING(inp_width);
     __lf_gendelay_0_act_t* act = &self->_lf_act;
     // Create a token.
-    //#if NUMBER_OF_WORKERS > 0
+    #if NUMBER_OF_WORKERS > 0
     // Need to lock the mutex first.
-    //lf_mutex_lock(&mutex);
-    //#endif
+    lf_mutex_lock(&mutex);
+    #endif
+    Py_INCREF(self->_lf_inp->value);
     lf_token_t* t = _lf_new_token((token_type_t*)act, self->_lf_inp->value, 1);
-    //#if NUMBER_OF_WORKERS > 0
-    //lf_mutex_unlock(&mutex);
-    //#endif
+    #if NUMBER_OF_WORKERS > 0
+    lf_mutex_unlock(&mutex);
+    #endif
     
     // Pass the token along
     lf_schedule_token(act, 0, t);
