@@ -372,6 +372,8 @@ _Python_INCLUDE_DIR:INTERNAL=/usr/local/include/python3.12/
 //Python Properties
 _Python_INTERPRETER_PROPERTIES:INTERNAL=Python;3;12;0;64;;cpython-312-x86_64-linux-gnu;abi3;/usr/local/lib/python3.12;/usr/local/lib/python3.12;/usr/local/lib/python3.12/site-packages;/usr/local/lib/python3.12/site-packages
 _Python_INTERPRETER_SIGNATURE:INTERNAL=f0fd2b84b8e02e86e221ace5a81c879a
+//Interpreter reason failure
+_Python_Interpreter_REASON_FAILURE:INTERNAL=
 //Path to a library.
 _Python_LIBRARY_RELEASE:INTERNAL=/usr/local/lib/libpython3.12.so
 //NumPy reason failure

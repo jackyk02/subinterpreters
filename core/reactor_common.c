@@ -1344,7 +1344,7 @@ void _lf_invoke_reaction(environment_t* env, reaction_t* reaction, int worker) {
         lf_mutex_lock((lf_mutex_t*)((self_base_t*)reaction->self)->reactor_mutex);
     }
 #endif
-
+    ((self_base_t*)reaction->self)->worker = worker;
     tracepoint_reaction_starts(env->trace, reaction, worker);
     ((self_base_t*) reaction->self)->executing_reaction = reaction;
     reaction->function(reaction->self);
