@@ -9,6 +9,16 @@ void _serverreactorreaction_function_0(void* instance_args){
     // Acquire the GIL (Global Interpreter Lock) to be able to call Python APIs.
     PyGILState_STATE gstate;
     gstate = PyGILState_Ensure();
+
+    // Switch to subinterpreter
+    int worker = ((self_base_t*)instance_args)->worker;
+    PyInterpreterState* interp = interp_list[worker];
+    PyThreadState* save_tstate = NULL;
+    if (interp != PyInterpreterState_Get()) {
+        PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+        save_tstate = PyThreadState_Swap(tstate);
+        lf_print("switched state");
+    }
     
     LF_PRINT_DEBUG("Calling reaction function _serverreactor.reaction_function_0");
     PyObject *rValue = PyObject_CallObject(
@@ -25,7 +35,10 @@ void _serverreactorreaction_function_0(void* instance_args){
     PyGILState_Release(gstate);
         exit(1);
     }
-    
+    // Switch back to global interpreter
+    if (save_tstate != NULL) {
+        PyThreadState_Swap(save_tstate);
+    }
     /* Release the thread. No Python API allowed beyond this point. */
     /* Release the thread. No Python API allowed beyond this point. */
     PyGILState_Release(gstate);
@@ -42,6 +55,16 @@ void _serverreactorreaction_function_1(void* instance_args){
     PyGILState_STATE gstate;
     gstate = PyGILState_Ensure();
     
+    // Switch to subinterpreter
+    int worker = ((self_base_t*)instance_args)->worker;
+    PyInterpreterState* interp = interp_list[worker];
+    PyThreadState* save_tstate = NULL;
+    if (interp != PyInterpreterState_Get()) {
+        PyThreadState* tstate = PyInterpreterState_ThreadHead(interp);
+        save_tstate = PyThreadState_Swap(tstate);
+        lf_print("switched state");
+    }
+
     LF_PRINT_DEBUG("Calling reaction function _serverreactor.reaction_function_1");
     PyObject *rValue = PyObject_CallObject(
         self->_lf_py_reaction_function_1, 
@@ -57,7 +80,10 @@ void _serverreactorreaction_function_1(void* instance_args){
     PyGILState_Release(gstate);
         exit(1);
     }
-    
+    // Switch back to global interpreter
+    if (save_tstate != NULL) {
+        PyThreadState_Swap(save_tstate);
+    }
     /* Release the thread. No Python API allowed beyond this point. */
     /* Release the thread. No Python API allowed beyond this point. */
     PyGILState_Release(gstate);
