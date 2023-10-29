@@ -48,7 +48,7 @@ PyTypeObject py_port_capsule_t;
  * @param py_object A PyObject with count 1 or greater.
  */
 void python_count_decrement(void* py_object) {
-    Py_XDECREF((PyObject*)py_object);
+    //Py_XDECREF((PyObject*)py_object);
 }
 
 //////////// set Function(s) /////////////
